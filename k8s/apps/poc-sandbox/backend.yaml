@@ -6,7 +6,7 @@ metadata:
 spec:
   source:
     repoURL: https://github.com/Akash-HC/gitops-argocd-demo.git
-    targetRevision: main
+    targetRevision: master
     path: k8s/overlays/poc-sandbox/backend
   destination:
     server: https://kubernetes.default.svc
