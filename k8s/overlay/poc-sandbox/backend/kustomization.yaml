@@ -3,6 +3,6 @@ resources:
 
 images:
   - name: BACKEND_IMAGE
-    newName: <your-dockerhub>/backend
+    newName: akashhc55/poc_sandbox_backend
     newTag: v1
 

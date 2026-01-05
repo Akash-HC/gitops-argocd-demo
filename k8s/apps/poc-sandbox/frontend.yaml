@@ -5,7 +5,7 @@ metadata:
   namespace: argocd
 spec:
   source:
-    repoURL: https://github.com/<you>/gitops-argocd-demo.git
+    repoURL: https://github.com/Akash-HC/gitops-argocd-demo.git
     targetRevision: main
     path: k8s/overlays/poc-sandbox/frontend
   destination:

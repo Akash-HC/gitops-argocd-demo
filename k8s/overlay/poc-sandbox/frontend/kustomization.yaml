@@ -3,6 +3,6 @@ resources:
 
 images:
   - name: FRONTEND_IMAGE
-    newName: <your-dockerhub>/frontend
+    newName: akashhc55/poc_sandbox_frontend
     newTag: v1
 
