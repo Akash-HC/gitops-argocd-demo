@@ -1,0 +1,8 @@
+resources:
+  - ../../../base/services/backend
+
+images:
+  - name: BACKEND_IMAGE
+    newName: <your-dockerhub>/backend
+    newTag: v1
+

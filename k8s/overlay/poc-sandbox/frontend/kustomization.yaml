@@ -1,0 +1,8 @@
+resources:
+  - ../../../base/services/frontend
+
+images:
+  - name: FRONTEND_IMAGE
+    newName: <your-dockerhub>/frontend
+    newTag: v1
+
