@@ -1,0 +1,22 @@
+apiVersion: argoproj.io/v1alpha1
+kind: AppProject
+metadata:
+  name: poc-sandbox
+  namespace: argocd
+spec:
+  description: Project for poc-sandbox account team
+
+  # Git repos this project is allowed to use
+  sourceRepos:
+    - https://github.com/Akash-HC/gitops-argocd-demo.git
+
+  # Where apps in this project are allowed to deploy
+  destinations:
+    - namespace: poc-sandbox
+      server: https://kubernetes.default.svc
+
+  # What cluster-scoped resources are allowed (tighten in prod)
+  clusterResourceWhitelist:
+    - group: '*'
+      kind: '*'
+

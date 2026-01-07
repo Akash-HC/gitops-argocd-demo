@@ -4,7 +4,7 @@ metadata:
   name: poc-sandbox
   namespace: argocd
 spec:
-  project: default
+  project: poc-sandbox
   source:
     repoURL: https://github.com/Akash-HC/gitops-argocd-demo.git
     targetRevision: master
