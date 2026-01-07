@@ -4,5 +4,5 @@ resources:
 images:
   - name: FRONTEND_IMAGE
     newName: akashhc55/poc_sandbox_frontend
-    newTag: v3
+    newTag: v5
 
