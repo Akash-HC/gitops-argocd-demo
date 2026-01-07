@@ -4,5 +4,5 @@ resources:
 images:
   - name: BACKEND_IMAGE
     newName: akashhc55/poc_sandbox_backend
-    newTag: v1
+    newTag: v2
 
